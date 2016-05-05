@@ -27,6 +27,7 @@ TMP_DATA=/usr/local/zabbix-agent-ops/var/iostat-data.tmp
 #  - 2nd: statistics over the last 10 sec
 #
 iostat -kx 10 2 > $TMP_DATA
+sed -i -e 's/,/./g' $TMP_DATA
 mv $TMP_DATA $DEST_DATA
 
 
