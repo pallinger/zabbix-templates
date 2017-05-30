@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 ##################################
 # Zabbix monitoring script
 #
@@ -23,7 +23,7 @@ ZBX_REQ_DATA="$2"
 ZBX_REQ_DATA_DEV="$1"
 
 # source data file
-SOURCE_DATA=/usr/local/zabbix-agent-ops/var/iostat-data
+SOURCE_DATA=/run/shm/zabbix-agent/iostat-data
 
 #
 # Error handling:
@@ -53,7 +53,7 @@ fi
 #  - in case the data are too old we want to notify the system
 # Consider the data as non-valid if older than OLD_DATA minutes
 #
-OLD_DATA=5
+OLD_DATA=3
 if [ $(stat -c "%Y" $SOURCE_DATA) -lt $(date -d "now -$OLD_DATA min" "+%s" ) ]; then
   echo $ERROR_OLD_DATA
   exit 1

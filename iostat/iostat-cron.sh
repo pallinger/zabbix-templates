@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 ##################################
 # Zabbix monitoring script
 #
@@ -15,9 +15,11 @@
 ##################################
 
 # source data file
-DEST_DATA=/usr/local/zabbix-agent-ops/var/iostat-data
-TMP_DATA=/usr/local/zabbix-agent-ops/var/iostat-data.tmp
+DIR=/run/shm/zabbix-agent
+DEST_DATA=/run/shm/zabbix-agent/iostat-data
+TMP_DATA=/run/shm/zabbix-agent/iostat-data.tmp
 
+mkdir -p $DIR
 #
 # gather data in temp file first, then move to final location
 # it avoids zabbix-agent to gather data from a half written source file
@@ -26,8 +28,6 @@ TMP_DATA=/usr/local/zabbix-agent-ops/var/iostat-data.tmp
 #  - 1st: statistics since boot -- useless
 #  - 2nd: statistics over the last 10 sec
 #
-iostat -kx 10 2 > $TMP_DATA
+iostat -ykx 60 1 > $TMP_DATA
 sed -i -e 's/,/./g' $TMP_DATA
 mv $TMP_DATA $DEST_DATA
-
-

@@ -25,7 +25,7 @@
             <discovery_rules>
                 <discovery_rule>
                     <name>Disk Devices</name>
-                    <type>0</type>
+                    <type>1</type>
                     <snmp_community/>
                     <snmp_oid/>
                     <key>custom.vfs.dev.discovery</key>
@@ -51,7 +51,7 @@
                     <item_prototypes>
                         <item_prototype>
                             <name>$1 $2</name>
-                            <type>0</type>
+                            <type>1</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
@@ -90,7 +90,7 @@
                         </item_prototype>
                         <item_prototype>
                             <name>$1 $2</name>
-                            <type>0</type>
+                            <type>1</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
@@ -129,7 +129,7 @@
                         </item_prototype>
                         <item_prototype>
                             <name>$1 $2</name>
-                            <type>0</type>
+                            <type>1</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
@@ -168,7 +168,7 @@
                         </item_prototype>
                         <item_prototype>
                             <name>$1 $2</name>
-                            <type>0</type>
+                            <type>1</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
@@ -207,7 +207,7 @@
                         </item_prototype>
                         <item_prototype>
                             <name>$1 $2</name>
-                            <type>0</type>
+                            <type>1</type>
                             <snmp_community/>
                             <multiplier>1</multiplier>
                             <snmp_oid/>
@@ -246,7 +246,7 @@
                         </item_prototype>
                         <item_prototype>
                             <name>$1 $2</name>
-                            <type>0</type>
+                            <type>1</type>
                             <snmp_community/>
                             <multiplier>1</multiplier>
                             <snmp_oid/>
@@ -285,7 +285,7 @@
                         </item_prototype>
                         <item_prototype>
                             <name>$1 $2</name>
-                            <type>0</type>
+                            <type>1</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
@@ -324,7 +324,7 @@
                         </item_prototype>
                         <item_prototype>
                             <name>$1 $2</name>
-                            <type>0</type>
+                            <type>1</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
@@ -363,7 +363,7 @@
                         </item_prototype>
                         <item_prototype>
                             <name>$1 $2</name>
-                            <type>0</type>
+                            <type>1</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
@@ -402,7 +402,7 @@
                         </item_prototype>
                         <item_prototype>
                             <name>$1 $2</name>
-                            <type>0</type>
+                            <type>1</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
@@ -441,7 +441,7 @@
                         </item_prototype>
                         <item_prototype>
                             <name>$1 $2</name>
-                            <type>0</type>
+                            <type>1</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
