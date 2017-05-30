@@ -28,6 +28,6 @@ mkdir -p $DIR
 #  - 1st: statistics since boot -- useless
 #  - 2nd: statistics over the last 10 sec
 #
-iostat -ykx 60 1 > $TMP_DATA
+iostat -ykx 58 1 > $TMP_DATA
 sed -i -e 's/,/./g' $TMP_DATA
 mv $TMP_DATA $DEST_DATA
