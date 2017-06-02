@@ -30,8 +30,8 @@
                     <snmp_oid/>
                     <key>jvm.collector[{HOST.HOST},{$JVMPORT}]</key>
                     <delay>60</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -71,8 +71,8 @@
                     <snmp_oid/>
                     <key>jvm.pcpu</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -110,8 +110,8 @@
                     <snmp_oid/>
                     <key>jvm.ec</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -149,8 +149,8 @@
                     <snmp_oid/>
                     <key>jvm.eu</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -188,8 +188,8 @@
                     <snmp_oid/>
                     <key>jvm.fgc</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -227,8 +227,8 @@
                     <snmp_oid/>
                     <key>jvm.fgct</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -266,8 +266,8 @@
                     <snmp_oid/>
                     <key>jvm.gct</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -305,8 +305,8 @@
                     <snmp_oid/>
                     <key>jvm.oc</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -344,8 +344,8 @@
                     <snmp_oid/>
                     <key>jvm.ou</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -383,8 +383,8 @@
                     <snmp_oid/>
                     <key>jvm.pc</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -422,8 +422,8 @@
                     <snmp_oid/>
                     <key>jvm.pu</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -461,8 +461,8 @@
                     <snmp_oid/>
                     <key>jvm.rss</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -500,8 +500,8 @@
                     <snmp_oid/>
                     <key>jvm.s0c</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -539,8 +539,8 @@
                     <snmp_oid/>
                     <key>jvm.s0u</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -578,8 +578,8 @@
                     <snmp_oid/>
                     <key>jvm.s1c</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -617,8 +617,8 @@
                     <snmp_oid/>
                     <key>jvm.s1u</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -656,8 +656,8 @@
                     <snmp_oid/>
                     <key>jvm.threads_running</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -695,8 +695,8 @@
                     <snmp_oid/>
                     <key>jvm.threads</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -734,8 +734,8 @@
                     <snmp_oid/>
                     <key>jvm.ygc</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
@@ -773,8 +773,8 @@
                     <snmp_oid/>
                     <key>jvm.ygct</key>
                     <delay>0</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <history>7</history>
+                    <trends>36500</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
